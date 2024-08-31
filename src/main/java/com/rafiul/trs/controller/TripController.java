@@ -27,6 +27,7 @@ public class TripController {
     public void deleteTrip(@RequestParam String tripId) {
         tripService.deleteTrip(tripId);
 
+
     }
 
 
