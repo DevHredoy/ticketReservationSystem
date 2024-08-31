@@ -1,0 +1,14 @@
+POST http://localhost:8080/api/trip/save
+Content-Type: application/json
+
+{
+
+  "destination": "Jashore",
+  "tripDateTime": "11-3-2024 12:22:00",
+  "startingTime": "8:21",
+  "busType": "NON_AC",
+  "reportingDateTime": "12-3-2024 12:22:00",
+  "tripNumber": "23332",
+  "tripStatus": "RUNNING",
+  "busId": "BUS-1001"
+}
