@@ -31,13 +31,6 @@ public class TripController {
     }
 
 
-    @GetMapping("/search")
-    public Page<TripDto> getAllTrip(@RequestBody TripSearchDto tripSearchDto) {
-
-        return tripService.getAllTrips(tripSearchDto);
-    }
-
-
 }
 
 
